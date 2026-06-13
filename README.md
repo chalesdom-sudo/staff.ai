@@ -1,7 +1,9 @@
-# Staff AI Assistant - WIP
-**What it does:** [1 line: “AI that helps staff answer HR/payroll questions”]  
-**Stack:** Python, OpenAI API, Flask  
-**Status:** In progress - core chat + memory working. Next: auth + dashboard.
+# Staff AI - Multi-Agent System
+**What:** 3-agent system for internal staff queries  
+**Agents:** Router → Retriever → Generator with shared memory  
+**Stack:** Python, LangChain/CrewAI, OpenAI API, ChromaDB
 
-**Demo:** [add video/gif or just describe]
-**What I learned:** Prompt engineering, handling context, error handling
+**Status:** Architecture designed. Building agent handoff now.  
+**Goal:** Agents that don’t repeat questions + use company docs
+
+Committing progress daily. Check commit history to see build.
